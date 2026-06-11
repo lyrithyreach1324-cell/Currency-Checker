@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CurrencyChecker - Live Currency Converter</title>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+  <header>
+    <h1>💱 CurrencyChecker</h1>
+    <p>Live global currency converter</p>
+  </header>
+
+  <main class="container">
+
+    <div class="converter">
+
+      <input type="number" id="amount" placeholder="Enter amount" value="1"/>
+
+      <div class="row">
+        <select id="fromCurrency"></select>
+        <button id="swap">⇅</button>
+        <select id="toCurrency"></select>
+      </div>
+
+      <button id="convertBtn">Convert</button>
+
+      <div class="result">
+        <h2 id="result">Loading...</h2>
+      </div>
+
+    </div>
+
+    <!-- AdSense placeholder -->
+    <div class="ad-box">
+      Ad Space (Google AdSense)
+    </div>
+
+  </main>
+
+  <footer>
+    <a href="about.html">About</a>
+    <a href="privacy-policy.html">Privacy Policy</a>
+    <a href="contact.html">Contact</a>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
